@@ -1,4 +1,4 @@
-"""This module exports the Perl -c util."""
+"""This module exports the puppet parser validate --color=false."""
 
 from cuda_lint import Linter, util
 
