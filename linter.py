@@ -1,12 +1,10 @@
 """This module exports the Perl -c util."""
 
 from cuda_lint import Linter, util
-from cudatext import * 
-
 
 class Puppet(Linter):
 
-    """Provides an interface to perl -c"""
+    """Provides an interface to puppet parser validate --color=false"""
     cmd = None
     executable = 'puppet'
     multiline = False
