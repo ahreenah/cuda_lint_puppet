@@ -10,7 +10,7 @@ class Puppet(Linter):
     cmd = None
     executable = 'puppet'
     multiline = False
-    syntax = ('Ruby')
+    syntax = ('Ruby','Puppet')
     regex = r'.*Error:(?P<message>.*):(?P<stdin>.*)line: (?P<line>\d+), column: (?P<column>\d+)'
     base_cmd = ('parser '
     ' validate'
@@ -19,8 +19,6 @@ class Puppet(Linter):
 
 
     def split_match(self, match):
-        print('plit_match')
-        print(match)
    
         """Return the components of the error."""
         split_match = super(Puppet, self).split_match(match)
@@ -31,7 +29,6 @@ class Puppet(Linter):
 
 
     def cmd(self):
-        print('cmd')
         """Return the command line to execute."""
         result = self.executable + ' ' + self.base_cmd
 
