@@ -8,7 +8,7 @@ class Puppet(Linter):
     cmd = None
     executable = 'puppet'
     multiline = False
-    syntax = ('Ruby','Puppet')
+    syntax = ('Puppet')
     regex = r'.*Error:(?P<message>.*):(?P<stdin>.*)line: (?P<line>\d+), column: (?P<column>\d+)'
     base_cmd = ('parser '
     ' validate'
