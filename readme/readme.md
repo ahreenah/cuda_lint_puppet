@@ -1,5 +1,5 @@
 Linter for CudaLint plugin.
-It adds support for Ruby lexer.
+It adds support for Puppet lexer.
 It uses "puppet".
 
 'puppet' must be in your system PATH.
