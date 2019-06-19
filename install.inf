@@ -1,6 +1,6 @@
 [info]
-title=Linter for Ruby, using 'puppet'
-desc=Linter for CudaLint, adds support for Ruby lexer, using 'puppet'
+title=Linter for Puppet, using 'puppet'
+desc=Linter for CudaLint, adds support for Puppet lexer, using 'puppet'
 type=cudatext-plugin
 subdir=cuda_lint_puppet
 homepage=https://github.com/medvosa/cuda_lint_puppet
