@@ -13,7 +13,7 @@ class Puppet(Linter):
     base_cmd = ('parser '
     ' validate'
     ' --color=false ')
-    tempfile_suffix = 'rb'
+    tempfile_suffix = 'puppet'
 
 
     def split_match(self, match):
